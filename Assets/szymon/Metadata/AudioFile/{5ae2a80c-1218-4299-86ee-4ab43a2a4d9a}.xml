@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5ae2a80c-1218-4299-86ee-4ab43a2a4d9a}">
+		<property name="assetPath">
+			<value>drive-download-20250524T082708Z-1-001/bed/Bed_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.90666666666666662</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d68e8ab8-2673-4166-9ae0-889fb38aee6d}</destination>
+		</relationship>
+	</object>
+</objects>

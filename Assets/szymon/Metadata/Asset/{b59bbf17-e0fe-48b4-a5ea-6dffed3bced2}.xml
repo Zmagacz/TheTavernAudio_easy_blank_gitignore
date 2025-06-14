@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{b59bbf17-e0fe-48b4-a5ea-6dffed3bced2}">
+		<property name="assetPath">
+			<value>drive-download-20250524T082708Z-1-001/bed/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d68e8ab8-2673-4166-9ae0-889fb38aee6d}</destination>
+		</relationship>
+	</object>
+</objects>

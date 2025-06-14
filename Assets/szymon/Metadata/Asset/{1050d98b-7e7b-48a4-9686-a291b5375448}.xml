@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{1050d98b-7e7b-48a4-9686-a291b5375448}">
+		<property name="assetPath">
+			<value>drive-download-20250524T082708Z-1-001/fire/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d68e8ab8-2673-4166-9ae0-889fb38aee6d}</destination>
+		</relationship>
+	</object>
+</objects>
