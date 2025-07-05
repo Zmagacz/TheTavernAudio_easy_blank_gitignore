@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -1646018397
     Data4: 1165863535
   Banks:
-  - {fileID: 5883069178059029677}
+  - {fileID: 3902845056699006000}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     Data3: -755472460
     Data4: 1470947893
   Banks:
-  - {fileID: 5883069178059029677}
+  - {fileID: 3902845056699006000}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
     Data3: -397764468
     Data4: -400264903
   Banks:
-  - {fileID: 5883069178059029677}
+  - {fileID: 3902845056699006000}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -81,6 +81,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 207609
+--- !u!114 &-3473932877801881372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/szymon/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638873020676262656
+  FileSizes:
+  - Name: Desktop
+    Value: 1100
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,8 +114,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6963095258701069102}
-  - {fileID: 5883069178059029677}
+  - {fileID: -3473932877801881372}
+  - {fileID: 3902845056699006000}
   EditorEvents:
   - {fileID: -8341576440271339488}
   - {fileID: -5718804397460581433}
@@ -104,10 +124,10 @@ MonoBehaviour:
   - {fileID: 7424076082650330965}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5883069178059029677}
+  - {fileID: 3902845056699006000}
   StringsBanks:
-  - {fileID: 6963095258701069102}
-  cacheTime: 638854921249335774
+  - {fileID: -3473932877801881372}
+  cacheTime: 638873020676262656
   cacheVersion: 131617
 --- !u!114 &3419601017253145
 MonoBehaviour:
@@ -135,6 +155,26 @@ MonoBehaviour:
   - stone
   - wood
   Exists: 1
+--- !u!114 &3902845056699006000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/szymon/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638873020676253507
+  FileSizes:
+  - Name: Desktop
+    Value: 6112448
+  Exists: 1
 --- !u!114 &4212262314229756951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +194,7 @@ MonoBehaviour:
     Data3: 447956869
     Data4: -1597582773
   Banks:
-  - {fileID: 5883069178059029677}
+  - {fileID: 3902845056699006000}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -162,46 +202,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 80000
---- !u!114 &5883069178059029677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Desktop/szymon/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638854921249315782
-  FileSizes:
-  - Name: Desktop
-    Value: 6112448
-  Exists: 1
---- !u!114 &6963095258701069102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Desktop/szymon/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638854921249335774
-  FileSizes:
-  - Name: Desktop
-    Value: 1100
-  Exists: 1
 --- !u!114 &7424076082650330965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
     Data3: 817302195
     Data4: -462124892
   Banks:
-  - {fileID: 5883069178059029677}
+  - {fileID: 3902845056699006000}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
