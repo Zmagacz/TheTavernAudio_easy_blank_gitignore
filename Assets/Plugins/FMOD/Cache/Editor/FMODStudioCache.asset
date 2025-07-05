@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8723624216084129643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Door/opening
+  m_EditorClassIdentifier: 
+  Name: opening
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 693301250
+    data2: 3382606132
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - opened
+  - closed
+  Exists: 1
 --- !u!114 &-8341576440271339488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +80,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 77538
+--- !u!114 &-6117639064803975102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Door
+  Guid:
+    Data1: 1915551942
+    Data2: 1259747182
+    Data3: -423123523
+    Data4: -284516579
+  Banks:
+  - {fileID: 3902845056699006000}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8723624216084129643}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1540
 --- !u!114 &-5718804397460581433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,10 +150,10 @@ MonoBehaviour:
   Path: Assets/szymon/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638873020676262656
+  lastModified: 638873144018106712
   FileSizes:
   - Name: Desktop
-    Value: 1100
+    Value: 1232
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -122,12 +176,14 @@ MonoBehaviour:
   - {fileID: -7988523932029137562}
   - {fileID: 4212262314229756951}
   - {fileID: 7424076082650330965}
+  - {fileID: 2857506161003250202}
+  - {fileID: -6117639064803975102}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3902845056699006000}
   StringsBanks:
   - {fileID: -3473932877801881372}
-  cacheTime: 638873020676262656
+  cacheTime: 638873144018106712
   cacheVersion: 131617
 --- !u!114 &3419601017253145
 MonoBehaviour:
@@ -155,6 +211,33 @@ MonoBehaviour:
   - stone
   - wood
   Exists: 1
+--- !u!114 &2857506161003250202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 52052864
+    Data2: 1253373871
+    Data3: -46065014
+    Data4: -1053809099
+  Banks:
+  - {fileID: 3902845056699006000}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3902845056699006000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,10 +253,10 @@ MonoBehaviour:
   Path: Assets/szymon/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638873020676253507
+  lastModified: 638873144018096702
   FileSizes:
   - Name: Desktop
-    Value: 6112448
+    Value: 6136768
   Exists: 1
 --- !u!114 &4212262314229756951
 MonoBehaviour:
