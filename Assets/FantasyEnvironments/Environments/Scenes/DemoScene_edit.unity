@@ -1108,7 +1108,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 6.7
-  OverrideMaxDistance: 16.91
+  OverrideMaxDistance: 18
 --- !u!135 &294051912
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 6.7
-  OverrideMaxDistance: 15
+  OverrideMaxDistance: 18
 --- !u!1 &297431489
 GameObject:
   m_ObjectHideFlags: 0
@@ -7621,8 +7621,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 7.5
-  OverrideMaxDistance: 7.5
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 6
 --- !u!135 &1905629346
 SphereCollider:
   m_ObjectHideFlags: 0
