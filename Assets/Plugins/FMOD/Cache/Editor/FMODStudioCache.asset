@@ -107,7 +107,7 @@ MonoBehaviour:
   - {fileID: -8723624216084129643}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1540
+  Length: 1400
 --- !u!114 &-5718804397460581433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   Path: Assets/szymon/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638873940026541614
+  lastModified: 638873972104546949
   FileSizes:
   - Name: Desktop
     Value: 1274
@@ -183,7 +183,7 @@ MonoBehaviour:
   - {fileID: 3902845056699006000}
   StringsBanks:
   - {fileID: -3473932877801881372}
-  cacheTime: 638873940026541614
+  cacheTime: 638873972104546949
   cacheVersion: 131617
 --- !u!114 &3419601017253145
 MonoBehaviour:
@@ -253,10 +253,10 @@ MonoBehaviour:
   Path: Assets/szymon/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638873940026526523
+  lastModified: 638873972104526868
   FileSizes:
   - Name: Desktop
-    Value: 6136992
+    Value: 6136640
   Exists: 1
 --- !u!114 &4212262314229756951
 MonoBehaviour:
